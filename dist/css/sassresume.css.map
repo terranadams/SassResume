@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../styles/fonts.scss","../../styles/margins.scss"],"names":[],"mappings":"AAQA;EACI;;;AAGJ;EARI;EACA;EASA;EACA;EACA;EACA;;;AAIJ;EAjBI;EACA;EAkBA;EACA;;;ACtBJ;EACI","file":"sassresume.css"}
+{"version":3,"sourceRoot":"","sources":["../../styles/fonts.scss","../../styles/layout.scss"],"names":[],"mappings":"AAUA;EACI,aAXO;;;AAaX;EACI,aAdO;;;AAiBX;EAbI,aAJO;EAKP;EACA;;;AAeJ;EAjBI,aAJO;EAKP;EACA;;;ACLJ;EACI;;AACA;EACI;EACA;EACA;EACA;EACA;EACJ;;AAEA;EACI;;;AAOR;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA","file":"sassresume.css"}

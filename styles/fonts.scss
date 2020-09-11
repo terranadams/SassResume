@@ -1,26 +1,25 @@
-
+$mainfont: Arial, Helvetica, sans-serif;
 
 
 @mixin fonts {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $mainfont;
     font-size: 12px;
+    color: rgb(83, 83, 83);
+    
 }
 
+.labels {
+    font-family: $mainfont;
+}
 .topstuff {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $mainfont;
 }
 
 .leftbox {
     @include fonts();
-    border-right: solid 1px black;
-    display: inline-flex;
-    flex-direction: column;
-    width: 400px;
-
 }
 
 .rightbox {
     @include fonts();
-    display: inline-flex;
-    flex-direction: column;
 }
+
