@@ -1,31 +1,51 @@
+$rainbow: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet,white);
+$infomargin: -690px;
 
-.topstuff {    
-    background-color: lightblue;
-    .photo {
-        display: relative;
-        left: 100px;
-        height: 200px;
-        width: 200px;
-        border-radius: 100%;
-    background-color: green;
-    }
+@mixin flexing {
+    display: flex;
+    flex-direction: column;
+}
+
+.topstuff {
+    height: 800px;    
+    display: relative;
+    background-image: url("../../IMG_1956.PNG");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     h1 {
         display: inline;
     }
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+   @extend .row
+}
 
-
+.leftbox, .rightbox {
+    margin-top: $infomargin;
+    
+}
 
 .leftbox {
     margin-left: 50px;
-    display: inline-flex;
     flex-direction: column;
-    width: 300px;
+    width: 20%;
+    background-image: $rainbow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .rightbox {
-    background-color: rgb(219, 219, 219);
     display: inline-flex;
     flex-direction: column;
+    width: 80%;
+    background-image: $rainbow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

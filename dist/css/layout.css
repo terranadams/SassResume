@@ -1,29 +1,40 @@
 .topstuff {
-  background-color: lightblue;
-}
-.topstuff .photo {
+  height: 800px;
   display: relative;
-  left: 100px;
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
-  background-color: green;
+  background-image: url("../../IMG_1956.PNG");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .topstuff h1 {
   display: inline;
 }
 
+.row, .column {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftbox, .rightbox {
+  margin-top: -690px;
+}
+
 .leftbox {
   margin-left: 50px;
-  display: inline-flex;
   flex-direction: column;
-  width: 300px;
+  width: 20%;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .rightbox {
-  background-color: #dbdbdb;
   display: inline-flex;
   flex-direction: column;
+  width: 80%;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=layout.css.map */

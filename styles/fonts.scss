@@ -1,10 +1,11 @@
-$mainfont: Arial, Helvetica, sans-serif;
-
+$mainfont: Arial Narrow, sans-serif;
+$maincolor: white;
+$mainfontsize: 18px;
 
 @mixin fonts {
     font-family: $mainfont;
-    font-size: 12px;
-    color: rgb(83, 83, 83);
+    font-size: $mainfontsize;
+    color: $maincolor;
     
 }
 
